@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           * {
+           box-sizing: border-box;
+          }
+
+           body {
+            font-family: Arial;
+            padding: 10px;
+            background: #f1f1f1;
+          }
+
+          /* Header/Blog Title */
+          .header {
+            padding: 30px;
+            text-align: center;
+            background: white;
+          }
+  
+          .header h1 {
+            font-size: 50px;
+          }
+
+          /* Style the top navigation bar */
+          .topnav {
+            overflow: hidden;
+            background-color: #333;
+          }
+
+          /* Style the topnav links */
+          .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+
+          /* Change color on hover */
+          .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+          }
+
+          /* Create two unequal columns that floats next to each other */
+          /* Left column */
+          .leftcolumn {   
+            float: left;
+            width: 25%;
+          }
+
+          /* Right column */
+          .rightcolumn {
+            float: left;
+            width: 75%;
+            background-color: #f1f1f1;
+            padding-left: 20px;
+          }
+
+          /* Fake image */
+          .fakeimg {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+          }
+
+          /* Add a card effect for articles */
+          .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+          }
+
+          /* Clear floats after the columns */
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+
+          /* Footer */
+          .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+            margin-top: 20px;
+          }
+
+          /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+          @media screen and (max-width: 800px) {
+          .leftcolumn, .rightcolumn {   
+            width: 100%;
+            padding: 0;
+            }
+          }
+
+          /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+          @media screen and (max-width: 400px) {
+          .topnav a {
+            float: none;
+            width: 100%;
+            }
+          }
+        </style>
+    </head>
+  <body>
+ 
+  <div class="row">
+    <div class="leftcolumn">
+      <div class="card">
+        <nav class="topnav" id="navbar">
+          <header></header>
+          <a href="#Put_Into_Neutral" class="nav-link" id="nav-link">
+            Put Into Neutral
+          </a>
+          <a href="#Don't_Worry_About_The_Choke_Lever" class="nav-link" id="nav-link">
+            Don't Worry About The Choke Lever
+          </a>
+          <a href="#Pull_Clutch_In_Toward_Handlebar" class="nav-link" id="nav-link">
+            Pull Clutch In Toward Handlebar
+          </a>
+          <a href="#Press_And_Hold_Start_Button" class="nav-link" id="nav-link">
+            Press And hold Start Button
+          </a>
+          <a href="#Try_Using_The_throttle" class="nav-link" id="nav-link">
+            Try Using The Throttle
+         </a>
+        </nav>
+        
+      </div>
+    </div>
+    <div class="rightcolumn">
+        <div class="header">
+          <h1>How to Start a Motorcycle</h1>
+          <p></p>
+        </div>
+      <main id="main-doc">
+        
+        <div class="card">
+            <section class="main-section" id="Put_Into_Neutral">
+               <header>Put Into Neutral</header>
+               <code></code>
+              <h5>Title description, Dec 7, 2017</h5>
+              <div class="fakeimg" style="height:200px;">Image</div>
+              <p>Before we put the bike on neutral:</p>
+               <ol>
+                  <li>Always important to be sober.</li>
+                  <li>Motorcycle inspection.</li>
+                  <li>Put your helmet on.</li>
+                  <li>Check the weather.</li>
+                  <li>Bring water.</li>
+                </ol>
+                <p>You can almost always find this between first and second gear.</p>
+            </section>
+        </div>
+        <div class="card">
+            <section class="main-section" id="Don't_Worry_About_The_Choke_Lever">
+              <header>Don't Worry About The Choke Lever</header>
+              <code></code>
+              <h5>Title description, Sep 2, 2017</h5>
+              <div class="fakeimg" style="height:200px;">Image</div>
+              <p></p>
+              <p>For electronically fuel-injected motorcycles, the engine management system will automatically look after fueling needs whether the engine is hot or cold. There is no choke lever on these motorcycles. Use a small amount of throttle when starting either hot or cold.</p>
+            </section>
+        </div>
+        <div class="card">
+            <section class="main-section" id="Pull_Clutch_In_Toward_Handlebar">
+              <header>Pull Clutch In Toward Handlebar</header>
+              <code></code>
+              <h5>Title description, Dec 7, 2017</h5>
+              <div class="fakeimg" style="height:200px;">Image</div>
+              <p></p>
+              <p>It's usually on the the left-hand side. Many riders choose to also pull in the front brake (on the right handlebar) at the same time.</p>
+            </section>
+        </div>
+        <div class="card">
+            <section class="main-section" id="Press_And_Hold_Start_Button">
+              <header>Press And Hold Start Button</header>
+              <code></code>
+              <h5>Title description, Sep 2, 2017</h5>
+              <div class="fakeimg" style="height:200px;">Image</div>
+              <p></p>
+              <p>This is usually located on the right handlebar, near the bottom of where the hand will naturally rest.</p>
+            </section>
+        </div>
+        <div class="card">
+            <section class="main-section" id="Try_Using_The_throttle">
+              <header>Try Using The Throttle</header>
+              <code></code>
+              <h5>Title description, Dec 7, 2017</h5>
+              <div class="fakeimg" style="height:200px;">Image</div>
+              <p></p>
+              <p>If the motorcycle does not catch and start, try using the throttle while pressing the start button. Make sure to keep the clutch held all of the way in while doing this.</p>
+            </section>
+        </div>
+      </main>
+    
+       </div>
+    </div>
+
+    <div class="footer">
+     <h2>Footer</h2>
+    </div>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
